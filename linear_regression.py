@@ -75,7 +75,6 @@ def main():
     for i in range (1500):
         pred = model(inputs)
         loss = mse(pred, goal)
-        print(loss)
         loss.backward()
         with torch.no_grad():
             w -= w.grad * 0.00001

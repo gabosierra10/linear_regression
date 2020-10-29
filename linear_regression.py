@@ -8,11 +8,11 @@ import torch
 import numpy as np
 
 #| Region |Temp.(F)|Rainfall(mm)|Humidity(%)|Plantains(ton)|Avocados(ton)|
-#|San Juan|   81   |     70     |     40    |      60       |     64      |
-#|Carolina|   82   |     85     |     70    |      49       |     74      |
-#| Caguas |   83   |     105    |     50    |      101      |     57      |
-#| Ponce  |   89   |     40     |     20    |      27       |     150     |
-#| Arecibo|   85   |     80     |     59    |      80       |     30      |
+#|San Juan|   81   |     70     |     40    |      60      |     64      |
+#|Carolina|   82   |     85     |     70    |      49      |     74      |
+#| Caguas |   83   |     105    |     50    |      101     |     57      |
+#| Ponce  |   89   |     40     |     20    |      27      |     150     |
+#| Arecibo|   85   |     80     |     59    |      80      |     30      |
 
 #plantain_yield = w11 * temp + w12 * rainfall + w13 * humidity + b1
 #avocado_yield = w21 * temp + w22 * rainfall + w23 * humidity + b2
